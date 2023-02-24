@@ -27,7 +27,7 @@ jobs:
           platforms: linux/arm64
           push: true
           tags: |
-            ghcr.io/ree-jp/friendconnect:egg
+            ghcr.io/ree-jp-minecraft/friendconnect:egg
 
       - uses: docker/build-push-action@v4
         with:
@@ -36,4 +36,4 @@ jobs:
           platforms: linux/arm64
           push: true
           tags: |
-            ghcr.io/ree-jp/friendconnect:yolks
+            ghcr.io/ree-jp-minecraft/friendconnect:yolks
